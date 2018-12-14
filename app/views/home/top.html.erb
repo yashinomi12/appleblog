@@ -1,0 +1,36 @@
+
+<header>
+  <div class="header-logo">
+  <h1>Ringomedia</h1>
+  </div>
+
+  <div class="header-sub">
+    <p>りんごが好きな人あつまれ</p>
+  </div>
+</header>
+
+<body>
+  <div class="contents-item">
+    <%= link_to posts_index_path do %>
+    <%= image_tag 'apple1.jpg', size: '180x180' %>
+    <% end %>
+    <p>りんご</p>
+    <!-- <img src="assets/apple1.jpg" height="180" width="180">
+    <p><%= link_to "COLUMN",posts_index_path %></p> -->
+  </div>
+  <div class="contents-item">
+    <img src="assets/apple2.jpg" height="180" width="180">
+    <p>りんご検索</p>
+  </div>
+  <div class="contents-item">
+    <img src="assets/apple3.jpg" height="180" width="180">
+    <p>レシピ</p>
+  </div>
+</body>
+
+<footer>
+  <ul>
+    <li><img src="assets/Twitter.png" alt="Twiiter" height="30" width="30"></li>
+    <li><img src="assets/ig.png" alt="Instagram" height="30" width="30"></li>
+  </ul>
+</footer>
