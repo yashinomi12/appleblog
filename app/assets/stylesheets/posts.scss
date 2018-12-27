@@ -11,14 +11,21 @@ h1 {
   display:block;
   margin-left: auto ;
   margin-right: auto ;
+  margin-top: 20px;
 }
-.content {
+.content a{
   padding: 20px 30px;
-  margin-bottom: 10px;
   background-color: #F5F5F5;
   overflow: hidden;
   box-shadow: 0 2px 6px #c1ced7;
   width:700px;
   text-align: left;
-
+  margin: auto;
+// div 中央揃え
+}
+.form_error{
+  font-family: "ヒラギノ角ゴ Pro W3","sans-serif";
+  font-size: 20px;
+  color: #DC143C;
+  padding-bottom: 20px;
 }

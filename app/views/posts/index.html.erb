@@ -1,11 +1,13 @@
 <h1>RingoColumn</h1>
+<%= link_to("新規投稿",new_post_path) %>
 
 <div class = "main">
 
   <% @posts.each do |post| %>
 
     <div class = "content">
-      <%= link_to(post.title,content_fuji_path) %>
+      <p style="display:inline;"><%= post.category %>の話：</p>
+      <%= link_to(post.title, post_path(post.id)) %>
     </div>
 
   <% end %>
