@@ -1,0 +1,5 @@
+<%= form_with model:@post do |form|%>
+
+  <textarea name = "title"><%= @post.title %></textarea>
+  <input type="submit" value="save">
+<% end %>
